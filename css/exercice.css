@@ -71,3 +71,14 @@
 }
 
 /*9. exercice-all-in */
+.exercice-all-in .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  align-content: center;
+}
+
+.exercice-all-in .element {
+  flex-grow: 1;
+}
